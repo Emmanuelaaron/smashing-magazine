@@ -1,13 +1,47 @@
 .upper-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  color: aliceblue;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
   background-color: #d33a2c;
   grid-column: 1/-1;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.one img {
+  width: 80px;
+}
+
+#hash {
+  color: rgb(2, 2, 2);
+}
+
+.footer-elements {
+  font-size: 30px;
+}
+
+.one div {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  /* width: 50%; */
+  font-size: 40px;
+}
+
+.one p {
+  margin-left: 10px;
 }
 
 .header div img {
@@ -20,6 +54,7 @@
   justify-content: space-between;
   flex-direction: column;
   flex-grow: 1;
+  padding: 10px;
 }
 
 #logo-main {
@@ -34,20 +69,40 @@
 
 .one {
   background-color: #bc3428;
+  grid-column: 1 / 4;
+  padding: 200px 0 50px 50px;
 }
 
 .two {
   background-color: #c7372a;
+  grid-column: 4/7;
 }
 
 .three {
   background-color: #b13125;
+  grid-column: 1 / 4;
 }
 
 .four {
   background-color: #bc3428;
+  grid-column: 4/7;
 }
 
-h4 {
+h2 {
   font-size: xx-large;
+}
+
+.header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: none;
+  color: aliceblue;
+  border-radius: 4px;
 }
