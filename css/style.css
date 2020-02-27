@@ -19,7 +19,9 @@ body {
 }
 
 .one img {
-  width: 80px;
+  width: 75.6px;
+  border: 5px solid white;
+  border-radius: 8px;
 }
 
 #hash {
@@ -30,9 +32,12 @@ body {
   font-size: 30px;
 }
 
-.one div {
+.avatar {
   display: flex;
-  align-items: center;
+}
+
+.avatar p {
+  padding-top: 15px;
 }
 
 .text {
@@ -71,6 +76,14 @@ body {
   background-color: #bc3428;
   grid-column: 1 / 4;
   padding: 200px 0 50px 50px;
+}
+
+.comment-link-icon {
+  transform: scaleX(-1);
+}
+
+.comment-link {
+  font-size: 0.5em;
 }
 
 .two {
