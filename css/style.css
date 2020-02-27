@@ -7,6 +7,29 @@
 .header {
   background-color: #d33a2c;
   grid-column: 1/-1;
+  display: flex;
+}
+
+.header div img {
+  width: 39px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#logo-main {
+  width: 214px;
+}
+
+.topics-btn {
+  width: 136px;
+  height: 40px;
+  border: 2px white solid;
 }
 
 .one {
