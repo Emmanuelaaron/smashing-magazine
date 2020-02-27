@@ -1,0 +1,30 @@
+.upper-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header {
+  background-color: #d33a2c;
+  grid-column: 1/-1;
+}
+
+.one {
+  background-color: #bc3428;
+}
+
+.two {
+  background-color: #c7372a;
+}
+
+.three {
+  background-color: #b13125;
+}
+
+.four {
+  background-color: #bc3428;
+}
+
+h4 {
+  font-size: xx-large;
+}
