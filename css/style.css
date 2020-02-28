@@ -18,18 +18,22 @@ body {
   padding: 30px 0;
 }
 
-.one img {
+.avatar-container img {
   width: 75.6px;
   border: 5px solid white;
   border-radius: 8px;
 }
 
-#hash {
+.hash {
   color: rgb(2, 2, 2);
 }
 
 .footer-elements {
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.footer-elements li {
+  display: inline;
 }
 
 .avatar {
@@ -38,15 +42,12 @@ body {
 
 .avatar p {
   padding-top: 15px;
+  padding-left: 10px;
 }
 
 .text {
   /* width: 50%; */
   font-size: 40px;
-}
-
-.one p {
-  margin-left: 10px;
 }
 
 .header div img {
@@ -72,7 +73,7 @@ body {
   border: 2px white solid;
 }
 
-.one {
+.avatar-container {
   background-color: #808080;
   grid-column: 1 / 4;
   padding: 200px 0 50px 50px;
@@ -118,4 +119,9 @@ button {
   background: none;
   color: aliceblue;
   border-radius: 4px;
+}
+
+.arrow {
+  font-size: 48px;
+  margin-top: 100px;
 }
