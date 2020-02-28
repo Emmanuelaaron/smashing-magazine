@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: #d33a2c;
+  background-color: #b1b1b1;
   grid-column: 1/-1;
   display: flex;
   justify-content: space-evenly;
@@ -73,7 +73,7 @@ body {
 }
 
 .one {
-  background-color: #bc3428;
+  background-color: #808080;
   grid-column: 1 / 4;
   padding: 200px 0 50px 50px;
 }
@@ -87,17 +87,17 @@ body {
 }
 
 .two {
-  background-color: #c7372a;
+  background-color: #8a8a8a;
   grid-column: 4/7;
 }
 
 .three {
-  background-color: #b13125;
+  background-color: #949494;
   grid-column: 1 / 4;
 }
 
 .four {
-  background-color: #bc3428;
+  background-color: #9d9d9d;
   grid-column: 4/7;
 }
 
