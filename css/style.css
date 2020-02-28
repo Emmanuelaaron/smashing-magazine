@@ -9,6 +9,20 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.main-title {
+  font-size: 36px;
+  text-align: center;
+  position: absolute;
+  top: 236px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-title span {
+   background-color: white;
+   box-shadow: 0 60px 40px black;
+}
+
 .header {
   background-color: #b1b1b1;
   grid-column: 1/-1;
@@ -30,10 +44,12 @@ body {
 
 .footer-elements {
   font-size: 20px;
+  padding: 20px 0; 
 }
 
 .footer-elements li {
   display: inline;
+  padding-right: 20px;
 }
 
 .avatar {
@@ -46,7 +62,7 @@ body {
 }
 
 .text {
-  /* width: 50%; */
+  margin-top: 20px;
   font-size: 40px;
 }
 
