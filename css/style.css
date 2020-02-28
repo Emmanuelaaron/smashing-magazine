@@ -70,6 +70,10 @@ body {
   width: 200px;
 }
 
+.latest-post-3 img {
+  width: 200px;
+}
+
 .header div img {
   width: 39px;
 }
@@ -163,12 +167,51 @@ button {
   text-align: center;
   border-radius: 20px;
   margin-left: 50px;
+  padding: 20px;
 }
 
-.latest-post-2 button {
+.latest-post-2 button,
+.latest-post-3 button {
   margin: 10px auto;
   width: 150px;
   height: 50px;
   border: solid;
   background-color: #6c6c6c;
+}
+
+.latest-post-3 {
+  background-color: #bbb;
+  grid-column: span 2;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.latest-post-3 a {
+  color: #333;
+}
+
+.latest-articles {
+  grid-column: 1 / -1;
+  padding: 40px;
+  text-align: center;
+}
+
+.latest-articles a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* .articles-arrow {
+  display: inline-block;
+  position: relative;
+  top: 500px;
+} */
+
+.decorative-line {
+  border-top: 2px solid #333333;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 5px;
 }
