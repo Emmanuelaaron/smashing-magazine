@@ -267,3 +267,37 @@ h3 {
   display: block;
   width: 50%;
 }
+
+.people-wrote {
+  grid-column: span 2;
+  display: flex;
+  margin: 80px 20px 160px 70px;
+}
+
+.people-wrote div {
+  margin-left: 20px;
+}
+
+.people-wrote h4,
+.people-wrote h2 {
+  margin-bottom: 15px;
+}
+
+.people-wrote p {
+  line-height: 2.2em;
+}
+
+.people-wrote time {
+  text-transform: uppercase;
+  color: #7e7d7d;
+  font-size: 14px;
+}
+
+.people-wrote a {
+  color: #5c5c5c;
+}
+
+.people-wrote img {
+  width: 70px;
+  height: 70px;
+}
