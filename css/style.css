@@ -86,6 +86,13 @@ body {
   border-radius: 10px;
 }
 
+.design-systems img {
+  width: 256px;
+  position: relative;
+  bottom: 49px;
+  height: 373px;
+}
+
 .header div img {
   width: 39px;
 }
@@ -275,6 +282,11 @@ h3 {
   width: 50%;
 }
 
+.person-of-the-week p {
+  line-height: 1.7em;
+  margin-top: 40px;
+}
+
 .people-wrote {
   grid-column: span 2;
   display: flex;
@@ -302,4 +314,41 @@ h3 {
 
 .people-wrote a {
   color: #5c5c5c;
+}
+
+.design-systems {
+  background-color: #3b3b3b;
+  grid-column: 1/-1;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+#smasher-book h3 {
+  margin-top: 25px;
+}
+
+#smasher-book h4 {
+  margin-top: 25px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#smasher-book p {
+  display: block;
+  width: 55%;
+  font-size: 20px;
+  margin: 25px 0;
+  line-height: 2em;
+}
+
+#smasher-book button {
+  height: 65px;
+  width: 350px;
+  background-color: aliceblue;
+  color: #1e1e1e;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
