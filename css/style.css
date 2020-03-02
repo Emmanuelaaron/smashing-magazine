@@ -74,6 +74,11 @@ body {
   width: 200px;
 }
 
+.person-of-the-week img {
+  border: #1e1e1e solid 6px;
+  border-radius: 15px;
+}
+
 .header div img {
   width: 39px;
 }
@@ -249,4 +254,16 @@ h3 {
   font-size: larger;
   border: none;
   border-radius: 10px;
+}
+
+.person-of-the-week {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.person-of-the-week div {
+  display: block;
+  width: 50%;
 }
