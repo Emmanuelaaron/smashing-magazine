@@ -93,6 +93,11 @@ body {
   height: 373px;
 }
 
+.newsletter-cta img {
+  width: 415px;
+  height: 449px;
+}
+
 .header div img {
   width: 39px;
 }
@@ -187,6 +192,14 @@ button {
   border-radius: 20px;
   margin-left: 50px;
   padding: 20px;
+}
+
+form > button {
+  border-radius: 0 15px 15px 0;
+  background-color: rgb(249, 251, 252);
+  color: #1e1e1e;
+  border: none;
+  width: 120px;
 }
 
 .latest-post-2 button,
@@ -334,6 +347,10 @@ h3 {
   text-decoration: underline;
 }
 
+.newsletter-cta p {
+  color: rgb(14, 13, 13);
+}
+
 #smasher-book p {
   display: block;
   width: 55%;
@@ -388,6 +405,9 @@ h3 {
   grid-column: 1 / -1;
   text-align: center;
   background-color: #676767;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .newsletter-cta h2 {
@@ -395,21 +415,47 @@ h3 {
   margin: 20px;
 }
 
-.newsletter-cta img {
-  width: 415px;
-  height: 449px;
-}
-
 .newsletter-cta form {
   display: flex;
   margin: 0 auto;
   width: 50%;
-  border: solid 1px red;
   justify-content: center;
 }
 
 .newsletter-cta form > input {
-  width: 320px;
+  width: 300px;
   height: 62px;
   border-radius: 15px 0 0 15px;
+  border: none;
+  border-right: #bebdbd solid 1px;
+  padding-left: 20px;
+}
+
+.newsletter-cta .useful-tips {
+  margin: 15px 0 30px 0;
+  color: aliceblue;
+}
+
+.useful-tips .under-line {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+footer {
+  grid-column: 1/-1;
+  background-color: #676767;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.footer ul {
+
 }
