@@ -79,6 +79,13 @@ body {
   border-radius: 15px;
 }
 
+.people-wrote img {
+  width: 70px;
+  height: 70px;
+  border: #cfcece solid 6px;
+  border-radius: 10px;
+}
+
 .header div img {
   width: 39px;
 }
@@ -271,7 +278,7 @@ h3 {
 .people-wrote {
   grid-column: span 2;
   display: flex;
-  margin: 80px 20px 160px 70px;
+  margin: 80px 20px 85px 70px;
 }
 
 .people-wrote div {
@@ -295,9 +302,4 @@ h3 {
 
 .people-wrote a {
   color: #5c5c5c;
-}
-
-.people-wrote img {
-  width: 70px;
-  height: 70px;
 }
