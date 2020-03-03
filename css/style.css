@@ -214,12 +214,8 @@ footer > h3 {
 }
 
 .latest-post-1 p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-#main-p-lp1 {
   font-size: 20px;
+  margin-bottom: 20px;
   line-height: 1.6em;
 }
 
