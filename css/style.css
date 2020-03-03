@@ -1,0 +1,530 @@
+html {
+  font-family: 'Caladea', sans-serif;
+}
+
+.upper-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  color: aliceblue;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-title {
+  font-size: 36px;
+  text-align: center;
+  position: absolute;
+  top: 236px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-title span {
+  background-color: white;
+  box-shadow: 0 60px 40px black;
+}
+
+.header {
+  background-color: #b1b1b1;
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.avatar-container img {
+  width: 75.6px;
+  border: 5px solid white;
+  border-radius: 8px;
+}
+
+.hash {
+  color: rgb(2, 2, 2);
+}
+
+.footer-elements {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.footer-elements li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.avatar {
+  display: flex;
+}
+
+.avatar p {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.latest-post-2 img {
+  width: 200px;
+}
+
+.latest-post-3 img {
+  width: 200px;
+}
+
+.person-of-the-week img {
+  border: #1e1e1e solid 6px;
+  border-radius: 15px;
+}
+
+.people-wrote img {
+  width: 70px;
+  height: 70px;
+  border: #cfcece solid 6px;
+  border-radius: 10px;
+}
+
+.design-systems img {
+  width: 256px;
+  position: relative;
+  bottom: 49px;
+  height: 373px;
+}
+
+.newsletter-cta img {
+  width: 415px;
+  height: 449px;
+}
+
+.header div img {
+  width: 39px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#logo-main {
+  width: 214px;
+}
+
+.topics-btn {
+  width: 136px;
+  height: 40px;
+  border: 2px white solid;
+  font-size: 18px;
+}
+
+.avatar-container {
+  background-color: #808080;
+  grid-column: 1 / 4;
+  padding: 200px 0 50px 50px;
+}
+
+.comment-link-icon {
+  transform: scaleX(-1);
+}
+
+.comment-link {
+  font-size: 0.5em;
+}
+
+.two {
+  background-color: #8a8a8a;
+  grid-column: 4/7;
+}
+
+.three {
+  background-color: #949494;
+  grid-column: 1 / 4;
+}
+
+.four {
+  background-color: #9d9d9d;
+  grid-column: 4/7;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+.header p {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: none;
+  color: aliceblue;
+  border-radius: 4px;
+}
+
+.arrow {
+  font-size: 48px;
+  margin-top: 100px;
+}
+
+.lower-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(16, auto);
+  grid-gap: 20px;
+}
+
+.latest-post-1 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.latest-post-1 a {
+  color: #1e1e1e;
+}
+
+h3 {
+  color: aliceblue;
+  font-size: larger;
+}
+
+footer > h3 {
+  color: aliceblue;
+  font-size: 14px;
+  margin: 60px 0 40px 0;
+  font-family: Elena, serif;
+}
+
+.latest-post-1 h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.latest-post-1 p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+
+.arrow-middle-row {
+  display: block;
+  margin-top: 28  0;
+}
+
+.latest-post-2 {
+  background-color: #bbb;
+  grid-column: 1/3;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+form > button {
+  border-radius: 0 15px 15px 0;
+  background-color: rgb(249, 251, 252);
+  color: #1e1e1e;
+  border: none;
+  width: 120px;
+}
+
+.latest-post-2 button,
+.latest-post-3 button {
+  margin: 10px auto;
+  width: 150px;
+  height: 50px;
+  border: solid;
+  background-color: #6c6c6c;
+}
+
+.latest-post-3 {
+  background-color: #bbb;
+  grid-column: span 2;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.latest-post-3 a {
+  color: #333;
+}
+
+.latest-articles {
+  grid-column: 1 / -1;
+  padding: 40px;
+  text-align: center;
+}
+
+.latest-articles a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.decorative-line {
+  border-top: 2px solid #333;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.ethical-design {
+  grid-column: 1/-1;
+  background-color: #676767;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.handbook {
+  font-size: 55px;
+  text-decoration: underline;
+}
+
+.pattern {
+  font-size: 55px;
+  color: #1e1e1e;
+}
+
+.ethical-design p {
+  display: block;
+  width: 50%;
+  margin: 25px auto;
+  color: #1e1e1e;
+  font-size: 25px;
+}
+
+.ethical-design button {
+  margin: 0 auto;
+  height: 70px;
+  width: 400px;
+  background-color: aliceblue;
+  color: #1e1e1e;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+}
+
+.person-of-the-week {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 70px;
+}
+
+.person-of-the-week div {
+  display: block;
+  width: 50%;
+  font-size: larger;
+  margin-left: 50px;
+}
+
+.person-of-the-week p {
+  line-height: 1.7em;
+  margin-top: 40px;
+}
+
+.people-wrote {
+  grid-column: span 2;
+  display: flex;
+  margin: 80px 20px 85px 70px;
+}
+
+.people-wrote div {
+  margin-left: 20px;
+}
+
+.people-wrote h4,
+.people-wrote h2 {
+  margin-bottom: 15px;
+}
+
+.people-wrote p {
+  line-height: 2.2em;
+}
+
+.people-wrote time {
+  text-transform: uppercase;
+  color: #7e7d7d;
+  font-size: 14px;
+}
+
+.people-wrote a {
+  color: #5c5c5c;
+}
+
+.design-systems {
+  background-color: #3b3b3b;
+  grid-column: 1/-1;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.guides h3 {
+  color: #1e1e1e;
+  font-size: 32px;
+  font-family: elena, serif;
+  margin-bottom: 20px;
+}
+
+#smasher-book h3 {
+  margin-top: 25px;
+}
+
+#smasher-book h4 {
+  margin-top: 25px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.newsletter-cta p {
+  color: rgb(14, 13, 13);
+}
+
+.footer p {
+  margin-top: 40px;
+  line-height: 1.5em;
+}
+
+.guides p {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+#smasher-book p {
+  display: block;
+  width: 55%;
+  font-size: 20px;
+  margin: 25px 0;
+  line-height: 2em;
+}
+
+#smasher-book button {
+  height: 65px;
+  width: 350px;
+  background-color: aliceblue;
+  color: #1e1e1e;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.guides {
+  padding: 10px;
+}
+
+.guides a {
+  color: #60676d;
+  font-family: Elena, serif;
+  line-height: 2em;
+  font-size: 24px;
+}
+
+.guides ul {
+  list-style-type: disc;
+  color: #676767;
+  padding-left: 30px;
+}
+
+.newsletter-cta {
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: #676767;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.newsletter-cta h2 {
+  color: aliceblue;
+  margin: 20px;
+}
+
+.newsletter-cta form {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+}
+
+.newsletter-cta form > input {
+  width: 300px;
+  height: 62px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  border-right: #bebdbd solid 1px;
+  padding-left: 20px;
+}
+
+.newsletter-cta .useful-tips {
+  margin: 15px 0 30px 0;
+  color: aliceblue;
+}
+
+.useful-tips .under-line {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+footer {
+  grid-column: 1/-1;
+  background-color: #676767;
+  text-align: center;
+}
+
+.topics-list {
+  list-style-type: disc;
+  color: black;
+  list-style-position: inside;
+  font-family: Elena, serif;
+  line-height: 2em;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topics-list li {
+  margin-left: 20px;
+}
+
+.bottom-list {
+  width: 400px;
+  margin: 30px auto 50px auto;
+}
+
+.bottom-list li {
+  display: inline;
+}
+
+.bottom-list a {
+  color: #1e1e1e;
+}
+
+#latest-articles {
+  grid-column: 1/-1;
+  text-align: center;
+  background-color: #5c5c5c;
+  width: 100%;
+  color: #ebe9e9;
+}
