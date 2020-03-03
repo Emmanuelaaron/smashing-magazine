@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{285:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),u=n(775),i=n.n(u);t.default=function(e){var t=e.element.getAttribute("datetime");return r.a.createElement(a.Fragment,null,i()(t)," ago")}}}]);
