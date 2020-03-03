@@ -182,7 +182,7 @@ button {
 .lower-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(15, auto);
+  grid-template-rows: repeat(16, auto);
   grid-gap: 20px;
 }
 
@@ -519,4 +519,12 @@ footer {
 
 .bottom-list a {
   color: #1e1e1e;
+}
+
+#latest-articles {
+  grid-column: 1/-1;
+  text-align: center;
+  background-color: #5c5c5c;
+  width: 100%;
+  color: #ebe9e9;
 }
