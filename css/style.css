@@ -187,11 +187,24 @@ button {
 }
 
 .latest-post-1 {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .latest-post-1 a {
   color: #1e1e1e;
+}
+
+h3 {
+  color: aliceblue;
+  font-size: larger;
+}
+
+footer > h3 {
+  color: aliceblue;
+  font-size: 14px;
+  margin: 60px 0 40px 0;
+  font-family: Elena, serif;
 }
 
 .latest-post-1 h3 {
@@ -212,7 +225,7 @@ button {
 
 .arrow-middle-row {
   display: block;
-  margin-top: 28  0px;
+  margin-top: 28  0;
 }
 
 .latest-post-2 {
@@ -279,11 +292,6 @@ form > button {
   padding-top: 50px;
 }
 
-h3 {
-  color: aliceblue;
-  font-size: larger;
-}
-
 .handbook {
   font-size: 55px;
   text-decoration: underline;
@@ -317,12 +325,15 @@ h3 {
   grid-column: 1/-1;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: left;
+  padding-left: 70px;
 }
 
 .person-of-the-week div {
   display: block;
   width: 50%;
+  font-size: larger;
+  margin-left: 50px;
 }
 
 .person-of-the-week p {
@@ -367,6 +378,13 @@ h3 {
   justify-content: space-around;
 }
 
+.guides h3 {
+  color: #1e1e1e;
+  font-size: 32px;
+  font-family: elena, serif;
+  margin-bottom: 20px;
+}
+
 #smasher-book h3 {
   margin-top: 25px;
 }
@@ -379,6 +397,18 @@ h3 {
 
 .newsletter-cta p {
   color: rgb(14, 13, 13);
+}
+
+.footer p {
+  margin-top: 40px;
+  line-height: 1.5em;
+}
+
+.guides p {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 10px;
+  margin-bottom: 15px;
 }
 
 #smasher-book p {
@@ -404,23 +434,9 @@ h3 {
   padding: 10px;
 }
 
-.guides p {
-  text-transform: uppercase;
-  color: #333;
-  font-size: 10px;
-  margin-bottom: 15px;
-}
-
-.guides h3 {
-  color: #1e1e1e;
-  font-size: 32px;
-  font-family: elena;
-  margin-bottom: 20px;
-}
-
 .guides a {
   color: #60676d;
-  font-family: Elena;
+  font-family: Elena, serif;
   line-height: 2em;
   font-size: 24px;
 }
@@ -480,29 +496,20 @@ footer {
   text-align: center;
 }
 
-footer > h3 {
-  color: aliceblue;
-  font-size: 14px;
-  margin: 60px 0 40px 0;
-  font-family: Elena;
-}
-
 .topics-list {
-  list-style: circle;
+  list-style-type: disc;
   color: black;
   list-style-position: inside;
-  font-family: Elena;
+  font-family: Elena, serif;
   line-height: 2em;
   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .topics-list li {
-  display: inline;
-}
-
-.footer p {
-  margin-top: 40px;
-  line-height: 1.5em;
+  margin-left: 20px;
 }
 
 .bottom-list {
