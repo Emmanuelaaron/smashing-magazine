@@ -224,7 +224,7 @@ button {
 
 .lower-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(16, auto);
   grid-gap: 20px;
 }
@@ -232,6 +232,7 @@ button {
 .latest-post-1 {
   margin-top: 10px;
   margin-left: 20px;
+  grid-column: span 4;
 }
 
 .latest-post-1 a {
@@ -270,7 +271,7 @@ footer > h3 {
 .latest-post-2,
 .latest-post-3 {
   background-color: #bbb;
-  grid-column: span 2;
+  grid-column: span 8;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -396,7 +397,7 @@ form > button {
 }
 
 .people-wrote {
-  grid-column: span 2;
+  grid-column: span 4;
   display: flex;
   margin: 80px 20px 85px 70px;
 }
@@ -482,6 +483,7 @@ form > button {
 
 .guides {
   padding: 10px;
+  grid-column: span 4;
 }
 
 .guides a {
