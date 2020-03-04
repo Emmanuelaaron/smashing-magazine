@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #d6d5d5;
 }
 
 .main-title {
@@ -24,11 +25,10 @@ body {
 
 .main-title span {
   background-color: white;
-  box-shadow: 0 60px 40px black;
 }
 
 .header {
-  background-color: #b1b1b1;
+  background-color: #727272;
   grid-column: 1/-1;
   display: flex;
   justify-content: space-evenly;
@@ -36,14 +36,50 @@ body {
   padding: 30px 0;
 }
 
-.avatar-container img {
-  width: 75.6px;
-  border: 5px solid white;
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #3d3d3d;
+  margin: 20px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.people-wrote div {
+  margin-left: 20px;
+}
+
+.person-of-the-week div {
+  display: block;
+  width: 50%;
+  font-size: larger;
+  margin-left: 50px;
+}
+
+.header div:hover {
+  background-color: #bbb;
+  color: #333;
+}
+
+#topics-btn-wrap {
+  background: none;
+}
+
+.avatar-container .img,
+.people-wrote .img {
+  width: 75.6px;
+  height: 75.6px;
+  border: 5px solid rgb(90, 88, 88);
+  border-radius: 8px;
+  background: #d4d4d4;
 }
 
 .hash {
-  color: rgb(2, 2, 2);
+  color: rgb(192, 189, 189);
 }
 
 .footer-elements {
@@ -70,31 +106,25 @@ body {
   font-size: 40px;
 }
 
-.latest-post-2 img {
+.latest-post-2 .img,
+.latest-post-3 .img {
   width: 200px;
+  height: 200px;
+  border: #444 solid 4px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
-.latest-post-3 img {
-  width: 200px;
-}
-
-.person-of-the-week img {
+.person-of-the-week .img {
   border: #1e1e1e solid 6px;
   border-radius: 15px;
-}
-
-.people-wrote img {
-  width: 70px;
-  height: 70px;
-  border: #cfcece solid 6px;
-  border-radius: 10px;
-}
-
-.design-systems img {
-  width: 256px;
-  position: relative;
-  bottom: 49px;
-  height: 373px;
+  width: 300px;
+  height: 300px;
+  background-color: #bbb;
 }
 
 .newsletter-cta img {
@@ -106,23 +136,36 @@ body {
   width: 39px;
 }
 
-.header div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  flex-grow: 1;
-  padding: 10px;
-}
-
 #logo-main {
   width: 214px;
+  background-color: #ddd;
+  height: 68px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #6c6c6c;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 24px;
+  padding: 20px;
 }
 
 .topics-btn {
   width: 136px;
   height: 40px;
   border: 2px white solid;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topics-btn:hover {
+  background-color: #585858;
+  cursor: pointer;
+}
+
+.search-icon {
+  display: flex;
   font-size: 18px;
 }
 
@@ -224,13 +267,22 @@ footer > h3 {
   margin-top: 28  0;
 }
 
-.latest-post-2 {
+.latest-post-2,
+.latest-post-3 {
   background-color: #bbb;
-  grid-column: 1/3;
-  text-align: center;
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
   margin-left: 50px;
   padding: 20px;
+}
+
+.latest-post-2 h2,
+.latest-post-3 h2 {
+  margin: 20px;
 }
 
 form > button {
@@ -244,18 +296,10 @@ form > button {
 .latest-post-2 button,
 .latest-post-3 button {
   margin: 10px auto;
-  width: 150px;
+  width: 200px;
   height: 50px;
   border: solid;
   background-color: #6c6c6c;
-}
-
-.latest-post-3 {
-  background-color: #bbb;
-  grid-column: span 2;
-  text-align: center;
-  border-radius: 20px;
-  padding: 20px;
 }
 
 .latest-post-3 a {
@@ -284,8 +328,29 @@ form > button {
 .ethical-design {
   grid-column: 1/-1;
   background-color: #676767;
-  text-align: center;
   padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ethical-design .img,
+.newsletter-cta .img {
+  width: 450px;
+  height: 450px;
+  border: #9d9d9d solid 2px;
+  margin: 30px 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bbb;
+  font-size: 40px;
+}
+
+.ethical-design h3 {
+  padding: 20px;
 }
 
 .handbook {
@@ -325,13 +390,6 @@ form > button {
   padding-left: 70px;
 }
 
-.person-of-the-week div {
-  display: block;
-  width: 50%;
-  font-size: larger;
-  margin-left: 50px;
-}
-
 .person-of-the-week p {
   line-height: 1.7em;
   margin-top: 40px;
@@ -341,10 +399,6 @@ form > button {
   grid-column: span 2;
   display: flex;
   margin: 80px 20px 85px 70px;
-}
-
-.people-wrote div {
-  margin-left: 20px;
 }
 
 .people-wrote h4,
@@ -445,11 +499,14 @@ form > button {
 
 .newsletter-cta {
   grid-column: 1 / -1;
-  text-align: center;
   background-color: #676767;
   width: 90%;
   margin: 0 auto;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .newsletter-cta h2 {
