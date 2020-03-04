@@ -106,8 +106,7 @@ body {
   font-size: 40px;
 }
 
-.latest-post-2 .img,
-.latest-post-3 .img {
+.latest-post-2 .img {
   width: 200px;
   height: 200px;
   border: #444 solid 4px;
@@ -268,10 +267,17 @@ footer > h3 {
   margin-top: 28  0;
 }
 
-.latest-post-2,
-.latest-post-3 {
+.friends {
+  grid-column: span 4;
+  padding: 20px;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.latest-post-2 {
   background-color: #bbb;
-  grid-column: span 8;
+  grid-column: span 4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -281,8 +287,7 @@ footer > h3 {
   padding: 20px;
 }
 
-.latest-post-2 h2,
-.latest-post-3 h2 {
+.latest-post-2 h2 {
   margin: 20px;
 }
 
@@ -294,17 +299,12 @@ form > button {
   width: 120px;
 }
 
-.latest-post-2 button,
-.latest-post-3 button {
+.latest-post-2 button {
   margin: 10px auto;
   width: 200px;
   height: 50px;
   border: solid;
   background-color: #6c6c6c;
-}
-
-.latest-post-3 a {
-  color: #333;
 }
 
 .latest-articles {
