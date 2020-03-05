@@ -4,8 +4,8 @@ html {
 
 .upper-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   color: aliceblue;
 }
 
@@ -171,7 +171,6 @@ body {
 
 .avatar-container {
   background-color: #808080;
-  grid-column: 1 / 4;
   padding: 200px 0 50px 50px;
 }
 
@@ -185,17 +184,10 @@ body {
 
 .two {
   background-color: #8a8a8a;
-  grid-column: 4/7;
 }
 
 .three {
   background-color: #949494;
-  grid-column: 1 / 4;
-}
-
-.four {
-  background-color: #9d9d9d;
-  grid-column: 4/7;
 }
 
 h2 {
