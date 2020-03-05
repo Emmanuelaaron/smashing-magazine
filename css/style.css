@@ -6,7 +6,7 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  color: aliceblue;
+  color: rgb(233, 238, 243);
 }
 
 body {
@@ -65,7 +65,7 @@ body {
   color: #333;
 }
 
-#topics-btn-wrap {
+.topics-btn-wrap {
   background: none;
 }
 
@@ -136,7 +136,7 @@ body {
   width: 39px;
 }
 
-#logo-main {
+.logo-main {
   width: 214px;
   background-color: #ddd;
   height: 68px;
@@ -205,7 +205,7 @@ button {
   align-items: center;
   justify-content: space-evenly;
   background: none;
-  color: aliceblue;
+  color: #f4f6f7;
   border-radius: 4px;
 }
 
@@ -224,6 +224,7 @@ button {
 .latest-post-1 {
   margin-top: 10px;
   margin-left: 20px;
+  height: 450px;
 }
 
 .latest-post-1 a {
@@ -231,12 +232,12 @@ button {
 }
 
 h3 {
-  color: aliceblue;
+  color: #f0f8ff;
   font-size: larger;
 }
 
 footer > h3 {
-  color: aliceblue;
+  color: #e4e8eb;
   font-size: 14px;
   margin: 60px 0 40px 0;
   font-family: Elena, serif;
@@ -246,6 +247,11 @@ footer > h3 {
   margin-bottom: 30px;
   font-size: 28px;
   font-weight: bold;
+}
+
+.latest-post-1 .material-icons {
+  position: relative;
+  top: 100px;
 }
 
 .latest-post-1 p {
@@ -367,7 +373,7 @@ form > button {
   margin: 0 auto;
   height: 70px;
   width: 400px;
-  background-color: aliceblue;
+  background-color: #eeeff0;
   color: #1e1e1e;
   font-size: larger;
   border: none;
@@ -415,7 +421,7 @@ form > button {
 .design-systems {
   background-color: #3b3b3b;
   grid-column: 1/-1;
-  color: aliceblue;
+  color: #dce1e6;
   display: flex;
   justify-content: space-around;
 }
@@ -427,11 +433,11 @@ form > button {
   margin-bottom: 20px;
 }
 
-#smasher-book h3 {
+.smasher-book h3 {
   margin-top: 25px;
 }
 
-#smasher-book h4 {
+.smasher-book h4 {
   margin-top: 25px;
   font-size: 40px;
   text-decoration: underline;
@@ -453,7 +459,7 @@ form > button {
   margin-bottom: 15px;
 }
 
-#smasher-book p {
+.smasher-book p {
   display: block;
   width: 55%;
   font-size: 20px;
@@ -461,10 +467,10 @@ form > button {
   line-height: 2em;
 }
 
-#smasher-book button {
+.smasher-book button {
   height: 65px;
   width: 350px;
-  background-color: aliceblue;
+  background-color: #e7ebee;
   color: #1e1e1e;
   font-size: larger;
   border: none;
@@ -502,7 +508,7 @@ form > button {
 }
 
 .newsletter-cta h2 {
-  color: aliceblue;
+  color: #e8eaec;
   margin: 20px;
 }
 
@@ -570,7 +576,7 @@ footer {
   color: #1e1e1e;
 }
 
-#latest-articles {
+.latest-articles-lower-container {
   grid-column: 1/-1;
   text-align: center;
   background-color: #5c5c5c;
